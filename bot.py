@@ -20,7 +20,7 @@ app = Client(
 
 @app.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
-	await message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am simple Google Translater Bot \n I can translate any language to you selected language__",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("Dasturchi" ,url="https://t.me/mendirman_coder") ],               [InlineKeyboardButton("Kanalimiz", url="https://t.me/ozodbek_online") ]   ]  ) )
+	await message.reply_text(text =f"Istalgan matnni yuboring men uni 100 dan ortiq tillarga tarjima qilib beraman.",reply_to_message_id = message.message_id ,parse_mode="markdown", reply_markup=InlineKeyboardMarkup([ [                    InlineKeyboardButton("Dasturchi" ,url="https://t.me/mendirman_coder") ],               [InlineKeyboardButton("Kanalimiz", url="https://t.me/ozodbek_online") ]   ]  ) )
                   
 
 
